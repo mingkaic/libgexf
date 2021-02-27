@@ -32,8 +32,8 @@
 #include <cstdio>
 #include <cstring>
 #include <set>
-#include <libxml/encoding.h>
-#include <libxml/xmlwriter.h>
+#include "libxml/encoding.h"
+#include "libxml/xmlwriter.h"
 
 using namespace std;
 
@@ -231,7 +231,7 @@ bool Conv::isInteger(const std::string& str) {
     ss >> i;
     stringstream si;
     si << i;
-    
+
     return si.str() == str;*/
 
     /* optimized version */
@@ -292,7 +292,7 @@ std::set<std::string> Conv::tokenizer(const std::string& delimiter, const std::s
     char* const cstr = new char [str.size()+1];
     strcpy( cstr, str.c_str() );
     char* tokenPtr = strtok(cstr,"|");
-    
+
     while( tokenPtr != NULL ) {
         tokens.insert(tokenPtr);
         tokenPtr = strtok(NULL, "|");

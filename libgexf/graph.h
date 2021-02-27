@@ -54,7 +54,7 @@ public:
      *  \brief Copy constructor
      */
     Graph(const Graph& orig);
-    
+
     virtual ~Graph();
 
     /*!
@@ -186,7 +186,7 @@ public:
      *  \brief Set a lock on reading
      *  \throw ReadLockException { Unable to set the lock }
      */
-    void readLock() throw(libgexf::ReadLockException);
+    void readLock();
 
     /*!
      *  \brief Unset a lock on reading
@@ -197,7 +197,7 @@ public:
      *  \brief Get a lock on writing
      *  \throw WriteLockException { Unable to set the lock }
      */
-    void writeLock() throw(libgexf::WriteLockException);
+    void writeLock();
 
     /*!
      *  \brief Unset a lock on writing

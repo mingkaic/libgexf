@@ -1,0 +1,13 @@
+licenses(["notice"])
+
+package(
+    default_visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "libgexf",
+    hdrs = glob(["libgexf/*.h"]),
+    srcs = glob(["libgexf/*.cpp"]),
+    copts = ["-std=c++17"],
+    deps = ["@libxml_archive//:libxml"],
+)

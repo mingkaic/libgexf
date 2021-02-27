@@ -8,8 +8,8 @@
 #ifndef _SCHEMAVALIDATOR_H
 #define	_SCHEMAVALIDATOR_H
 
-#include <libxml/xmlreader.h>
-#include <libxml/xmlschemas.h>
+#include "libxml/xmlreader.h"
+#include "libxml/xmlschemas.h"
 #include <string>
 
 namespace libgexf {

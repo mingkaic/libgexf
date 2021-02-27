@@ -30,7 +30,7 @@
 #define	_ABSTRACTPARSER_H
 
 #include "gexf.h"
-#include <libxml/xmlreader.h>
+#include "libxml/xmlreader.h"
 
 namespace libgexf {
 

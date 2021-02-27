@@ -29,8 +29,8 @@
 #ifndef _RNG_VALIDATOR_H
 #define	_RNG_VALIDATOR_H
 
-#include <libxml/xmlreader.h>
-#include <libxml/relaxng.h>
+#include "libxml/xmlreader.h"
+#include "libxml/relaxng.h"
 #include <string>
 
 namespace libgexf {

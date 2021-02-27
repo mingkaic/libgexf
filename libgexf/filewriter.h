@@ -30,7 +30,7 @@
 #define	_WRITER_H
 
 #include "gexf.h"
-#include <libxml/xmlwriter.h>
+#include "libxml/xmlwriter.h"
 #include <string>
 
 namespace libgexf {

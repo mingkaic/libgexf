@@ -32,7 +32,7 @@
 #include "gexf.h"
 #include "typedefs.h"
 #include "abstractparser.h"
-#include <libxml/xmlreader.h>
+#include "libxml/xmlreader.h"
 #include <string>
 
 namespace libgexf {

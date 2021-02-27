@@ -29,25 +29,25 @@
 #ifndef _LIBGEXF_H
 #define	_LIBGEXF_H
 
-#include <libgexf/typedefs.h>
-#include <libgexf/conv.h>
-#include <libgexf/exceptions.h>
-#include <libgexf/gexf.h>
-#include <libgexf/graph.h>
-#include <libgexf/dynamicgraph.h>
-#include <libgexf/metadata.h>
-#include <libgexf/data.h>
-#include <libgexf/abstractiter.h>
-#include <libgexf/nodeiter.h>
-#include <libgexf/edgeiter.h>
-#include <libgexf/directedgraph.h>
-#include <libgexf/undirectedgraph.h>
-#include <libgexf/abstractparser.h>
-#include <libgexf/filereader.h>
-#include <libgexf/filewriter.h>
-#include <libgexf/rngvalidator.h>
-#include <libgexf/schemavalidator.h>
-#include <libgexf/memoryvalidator.h>
+#include "libgexf/typedefs.h"
+#include "libgexf/conv.h"
+#include "libgexf/exceptions.h"
+#include "libgexf/gexf.h"
+#include "libgexf/graph.h"
+#include "libgexf/dynamicgraph.h"
+#include "libgexf/metadata.h"
+#include "libgexf/data.h"
+#include "libgexf/abstractiter.h"
+#include "libgexf/nodeiter.h"
+#include "libgexf/edgeiter.h"
+#include "libgexf/directedgraph.h"
+#include "libgexf/undirectedgraph.h"
+#include "libgexf/abstractparser.h"
+#include "libgexf/filereader.h"
+#include "libgexf/filewriter.h"
+#include "libgexf/rngvalidator.h"
+#include "libgexf/schemavalidator.h"
+#include "libgexf/memoryvalidator.h"
 
 #endif	/* _LIBGEXF_H */
 

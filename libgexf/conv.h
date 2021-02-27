@@ -34,7 +34,7 @@
 #include "gexfparser.h"
 #include <string>
 #include <set>
-#include <libxml/xmlstring.h>
+#include "libxml/xmlstring.h"
 
 namespace libgexf {
 
